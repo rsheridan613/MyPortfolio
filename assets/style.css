@@ -61,6 +61,7 @@ body {
 #about h2,
 #projects h2,
 #contact h2 {
+  flex: 0 0 20%;
   padding: 50px;
   height: 50px;
   border-right: 5px solid black;
@@ -70,7 +71,32 @@ body {
   margin: auto;
 }
 
+footer div a {
+  display: inline-block;
+  margin-left: 25px;
+  /* display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap; */
+}
+
 img {
   height: 150px;
   width: 200px;
+  margin: 20px;
+}
+
+#imagediv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+}
+
+.primary {
+  height: 400px;
+  width: 600px;
+  margin: 300px;
 }
